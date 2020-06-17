@@ -1,2 +1,2 @@
 #!/bin/sh
-py builder.py
+python builder.py

@@ -69,7 +69,7 @@ def convert_all_xcf():
 def create_pack_meta():
     pre_json = {
         'pack':{
-           'pack_format': get_config_param("PackSettings", "pack_format"),
+           'pack_format': int(get_config_param("PackSettings", "pack_format")),
             'description': get_config_param("PackSettings", "description")
         }
     }

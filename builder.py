@@ -94,7 +94,7 @@ def append_files():
             if (root + file).endswith('.png'):
                 # print('Append file: ', root + file)
                 path = os.path.join(root + "/" + file)
-                result_path = path[len(assets_dir) - 6:]
+                result_path = path[len(assets_dir) - 6:].lower()
                 print('Append file:', result_path)
                 result_zip.write(path, result_path)
     # Add mcmeta

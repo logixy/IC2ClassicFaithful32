@@ -7,4 +7,7 @@
 
 ### Build
  For build run `build.bat` (For Windows) or `build.sh` (For Linux)
-**Depends** on Python3
+ **Depends** on Python3
+
+### Preview
+![Preview resourcepack](https://github.com/LogicWorlds/IC2ClassicFaithful32/raw/master/img/preview.png)

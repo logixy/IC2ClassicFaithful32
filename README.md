@@ -2,6 +2,9 @@
 	<img src="https://github.com/LogicWorlds/IC2ClassicFaithful32/raw/master/src/pack.png">
 </p>
 
+### For IC2C 1.7.10, 1.19.2 i recommend CrossVas texture pack
+https://github.com/CrossVas/F32AddonsIC2Classic
+
 ### IC2Classic Textures for Faithful32
  IC2Classic textures for Faithful32
 

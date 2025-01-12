@@ -91,7 +91,7 @@ def append_files():
     result_zip = ZipFile(result_filename, 'w')
     for root, dirs, files in os.walk('src'):
         for file in files:
-            if (root + file).endswith('.png'):
+            if not (root + file).endswith('.xcf'):
                 # print('Append file: ', root + file)
                 path = os.path.join(root + "/" + file)
                 result_path = path[len(assets_dir) - 6:].lower()
